@@ -1,0 +1,10 @@
+.carousel {
+    border-radius: var(--border-radius-medium);
+    overflow: hidden;
+
+    &__img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,40 @@
+/* [project]/src/app/components/ProductCard/style.scss.css [app-client] (css) */
+.prod-card {
+  border-radius: var(--border-radius-medium);
+  box-shadow: 0 0 0 1px #0000000d;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.prod-card__img {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 1;
+}
+
+.prod-card-bottom {
+  padding: .5rem;
+}
+
+.prod-card-bottom__title {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.prod-card-bottom__price {
+  font-weight: 600;
+  color: red;
+}
+
+.prod-card p {
+  margin-bottom: unset;
+}
+
+/*# sourceMappingURL=src_app_components_ProductCard_style_scss_b52d8e.css.map*/

@@ -1,0 +1,13 @@
+/* [project]/src/app/components/ProductContainer/style.scss.css [app-client] (css) */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: .5rem;
+}
+
+.product-container a {
+  text-decoration: unset;
+  color: unset;
+}
+
+/*# sourceMappingURL=src_app_components_ProductContainer_style_scss_b52d8e.css.map*/

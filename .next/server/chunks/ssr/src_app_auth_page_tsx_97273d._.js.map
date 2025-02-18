@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/auth/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useSession, signIn, signOut } from \"next-auth/react\";\nimport styles from \"./styles.module.scss\"\n\nfunction AuthScreen() {\n    const { data: session } = useSession();\n\n    return (\n        <div className={styles[\"\"]}>\n            {session ? (\n                <>\n                    <p>Welcome, {session.user?.name}</p>\n                    <button onClick={() => signOut()}>Sign Out</button>\n                </>\n            ) : (\n                <button onClick={() => signIn(\"google\", { callbackUrl: \"http://localhost:3000\" })}>Sign In</button>\n            )}\n        </div>\n    );\n}\n\nexport default AuthScreen;\n"],"names":[],"mappings":";;;;AAEA;AACA;AAHA;;;;AAKA,SAAS;IACL,MAAM,EAAE,MAAM,OAAO,EAAE,GAAG,CAAA,GAAA,8IAAA,CAAA,aAAU,AAAD;IAEnC,qBACI,8OAAC;QAAI,WAAW,6JAAA,CAAA,UAAM,CAAC,GAAG;kBACrB,wBACG;;8BACI,8OAAC;;wBAAE;wBAAU,QAAQ,IAAI,EAAE;;;;;;;8BAC3B,8OAAC;oBAAO,SAAS,IAAM,CAAA,GAAA,8IAAA,CAAA,UAAO,AAAD;8BAAK;;;;;;;yCAGtC,8OAAC;YAAO,SAAS,IAAM,CAAA,GAAA,8IAAA,CAAA,SAAM,AAAD,EAAE,UAAU;oBAAE,aAAa;gBAAwB;sBAAI;;;;;;;;;;;AAInG;uCAEe"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 127, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import NextAuth from \"next-auth\";\nimport GoogleProvider from \"next-auth/providers/google\";\n\nconst handler = NextAuth({\n    providers: [\n        GoogleProvider({\n            clientId: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!,\n            clientSecret: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET!,\n        }),\n    ],\n    callbacks: {\n        async session({ session, token }) {\n            console.info(\"session\", session);\n            console.info(\"token\", token);\n            return session;\n        },\n    },\n});\n\nexport { handler as GET, handler as POST };\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEA,MAAM,UAAU,CAAA,GAAA,uIAAA,CAAA,UAAQ,AAAD,EAAE;IACrB,WAAW;QACP,CAAA,GAAA,qJAAA,CAAA,UAAc,AAAD,EAAE;YACX,QAAQ;YACR,YAAY;QAChB;KACH;IACD,WAAW;QACP,MAAM,SAAQ,EAAE,OAAO,EAAE,KAAK,EAAE;YAC5B,QAAQ,IAAI,CAAC,WAAW;YACxB,QAAQ,IAAI,CAAC,SAAS;YACtB,OAAO;QACX;IACJ;AACJ"}},
+    {"offset": {"line": 151, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

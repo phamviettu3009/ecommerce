@@ -1,0 +1,14 @@
+/* [project]/src/app/components/CarouselProductImage/style.scss.css [app-client] (css) */
+.carousel-prod-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.carousel-prod-img__item.active {
+  border: 2px solid red;
+}
+
+
+/*# sourceMappingURL=src_app_components_CarouselProductImage_style_scss_219c8a.css.map*/

@@ -1,0 +1,10 @@
+.filter {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: var(--border-radius-medium);
+    padding: 1rem;
+
+    &-value {
+        cursor: pointer;
+    }
+}

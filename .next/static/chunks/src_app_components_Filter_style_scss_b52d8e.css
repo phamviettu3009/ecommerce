@@ -1,0 +1,13 @@
+/* [project]/src/app/components/Filter/style.scss.css [app-client] (css) */
+.filter {
+  width: 100%;
+  background-color: #fff;
+  border-radius: var(--border-radius-medium);
+  padding: 1rem;
+}
+
+.filter-value {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=src_app_components_Filter_style_scss_b52d8e.css.map*/

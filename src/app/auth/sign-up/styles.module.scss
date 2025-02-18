@@ -1,0 +1,20 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+    height: 80%;
+
+    .form {
+        width: 300px;
+        border-radius: var(--border-radius-medium);
+        padding: 1rem;
+        background-color: #ffffff;
+        gap: 0.5rem;
+
+        &-message {
+            font-size: 12px;
+        }
+    }
+}

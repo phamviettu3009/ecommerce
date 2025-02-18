@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/customer/page.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\nimport useAuth from \"../hooks/useAuth\";\n\nfunction CustomerPage() {\n    const { handleSignOut } = useAuth();\n\n    return (\n        <div>\n            <button onClick={handleSignOut}>sign out</button>\n        </div>\n    );\n}\n\nexport default CustomerPage;\n"],"names":[],"mappings":";;;;AAGA;AAHA;;;AAKA,SAAS;IACL,MAAM,EAAE,aAAa,EAAE,GAAG,CAAA,GAAA,8HAAA,CAAA,UAAO,AAAD;IAEhC,qBACI,8OAAC;kBACG,cAAA,8OAAC;YAAO,SAAS;sBAAe;;;;;;;;;;;AAG5C;uCAEe"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

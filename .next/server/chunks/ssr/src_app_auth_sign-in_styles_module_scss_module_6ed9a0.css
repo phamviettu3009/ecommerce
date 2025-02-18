@@ -1,0 +1,28 @@
+/* [project]/src/app/auth/sign-in/styles.module.scss.module.css [app-client] (css) */
+.styles-module-scss-module__91rDUa__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background-color);
+  height: 80%;
+}
+
+.styles-module-scss-module__91rDUa__page .styles-module-scss-module__91rDUa__form {
+  width: 300px;
+  border-radius: var(--border-radius-medium);
+  padding: 1rem;
+  background-color: #fff;
+  gap: .5rem;
+}
+
+.styles-module-scss-module__91rDUa__page .styles-module-scss-module__91rDUa__form a {
+  text-decoration: unset;
+}
+
+.styles-module-scss-module__91rDUa__page .styles-module-scss-module__91rDUa__form-message {
+  font-size: 12px;
+}
+
+
+/*# sourceMappingURL=src_app_auth_sign-in_styles_module_scss_module_6ed9a0.css.map*/

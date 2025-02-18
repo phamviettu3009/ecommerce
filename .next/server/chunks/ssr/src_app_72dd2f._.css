@@ -1,0 +1,79 @@
+/* [project]/src/app/home/style.module.scss.module.css [app-client] (css) */
+.style-module-scss-module__8U1Cxq__page .style-module-scss-module__8U1Cxq__load_more {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.style-module-scss-module__8U1Cxq__page .style-module-scss-module__8U1Cxq__load_more_button {
+  border-radius: 2rem;
+}
+
+
+/* [project]/src/app/components/ProductContainer/style.scss.css [app-client] (css) */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: .5rem;
+}
+
+.product-container a {
+  text-decoration: unset;
+  color: unset;
+}
+
+
+/* [project]/src/app/components/ProductCard/style.scss.css [app-client] (css) */
+.prod-card {
+  border-radius: var(--border-radius-medium);
+  box-shadow: 0 0 0 1px #0000000d;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.prod-card__img {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 1;
+}
+
+.prod-card-bottom {
+  padding: .5rem;
+}
+
+.prod-card-bottom__title {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.prod-card-bottom__price {
+  font-weight: 600;
+  color: red;
+}
+
+.prod-card p {
+  margin-bottom: unset;
+}
+
+
+/* [project]/src/app/components/Carousel/style.module.scss.module.css [app-client] (css) */
+.style-module-scss-module__L3ge5a__carousel {
+  border-radius: var(--border-radius-medium);
+  overflow: hidden;
+}
+
+.style-module-scss-module__L3ge5a__carousel__img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+
+/*# sourceMappingURL=src_app_72dd2f._.css.map*/

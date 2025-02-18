@@ -1,0 +1,78 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --background-color: #f5f5fa;
+  --secondary-color: #fff;
+  --foreground-color: #171717;
+  --primary-color: #274ab3;
+  --text-color: #000;
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #f5f5fa;
+    --secondary-color: #fff;
+    --foreground-color: #171717;
+    --primary-color: #274ab3;
+    --text-color: #000;
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 12px;
+  }
+}
+
+html, body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background-color) !important;
+}
+
+body {
+  color: var(--foreground-color);
+  background: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mt-136px {
+  margin-top: 136px;
+}
+
+.global-container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (width >= 1200px) {
+  .global-container {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/*# sourceMappingURL=src_app_globals_b52d8e.css.map*/

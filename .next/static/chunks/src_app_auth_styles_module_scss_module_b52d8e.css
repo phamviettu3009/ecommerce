@@ -1,0 +1,19 @@
+/* [project]/src/app/auth/styles.module.scss.module.css [app-client] (css) */
+.styles-module-scss-module__yKohkW__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background-color);
+  height: 80%;
+}
+
+.styles-module-scss-module__yKohkW__page .styles-module-scss-module__yKohkW__form {
+  width: 300px;
+  border-radius: var(--border-radius-medium);
+  padding: 1rem;
+  background-color: #fff;
+  gap: .5rem;
+}
+
+/*# sourceMappingURL=src_app_auth_styles_module_scss_module_b52d8e.css.map*/

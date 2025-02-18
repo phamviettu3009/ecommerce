@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/api/%5B...nextauth%5D/route.ts"],"sourcesContent":["import NextAuth from \"next-auth\";\nimport GoogleProvider from \"next-auth/providers/google\";\n\nexport default NextAuth({\n    providers: [\n        GoogleProvider({\n            clientId: process.env.GOOGLE_CLIENT_ID!,\n            clientSecret: process.env.GOOGLE_CLIENT_SECRET!,\n        }),\n    ],\n    callbacks: {\n        async session({ session, token }) {\n            // Thêm thông tin token vào session nếu cần\n            session.user.id = token.sub;\n            return session;\n        },\n    },\n});\n"],"names":[],"mappings":";;;AAAA;AACA;;;uCAEe,CAAA,GAAA,uIAAA,CAAA,UAAQ,AAAD,EAAE;IACpB,WAAW;QACP,CAAA,GAAA,qJAAA,CAAA,UAAc,AAAD,EAAE;YACX,UAAU,QAAQ,GAAG,CAAC,gBAAgB;YACtC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAClD;KACH;IACD,WAAW;QACP,MAAM,SAAQ,EAAE,OAAO,EAAE,KAAK,EAAE;YAC5B,2CAA2C;YAC3C,QAAQ,IAAI,CAAC,EAAE,GAAG,MAAM,GAAG;YAC3B,OAAO;QACX;IACJ;AACJ"}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

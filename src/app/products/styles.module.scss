@@ -1,0 +1,16 @@
+.page {
+    &_container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .load_more {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+
+        &_button {
+            border-radius: 2rem;
+        }
+    }
+}

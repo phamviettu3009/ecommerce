@@ -1,0 +1,16 @@
+.carousel-prod-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    &__item {
+        border-radius: var(--border-radius-small);
+        border: 1px solid rgb(195, 195, 195);
+        cursor: pointer;
+
+        &.active {
+            border: 2px solid var(--primary-color);
+        }
+    }
+}

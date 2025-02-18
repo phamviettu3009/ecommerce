@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/components/ProductCard/style.scss.css"],"sourcesContent":[".prod-card{border-radius:var(--border-radius-medium);box-shadow:rgba(0,0,0,.05) 0px 0px 0px 1px;background-color:#fff;cursor:pointer;display:flex;flex-direction:column;overflow:hidden}.prod-card__img{object-fit:contain;width:auto;height:auto;max-width:100%;max-height:100%;aspect-ratio:1/1}.prod-card-bottom{padding:.5rem}.prod-card-bottom__title{font-size:15px;font-weight:400;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Open Sans\",\"Helvetica Neue\",sans-serif}.prod-card-bottom__price{font-weight:600;color:red}.prod-card p{margin-bottom:unset}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAAwL;;;;;;;;;AAA0G;;;;AAAgC;;;;;;AAAiM;;;;;AAAmD"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

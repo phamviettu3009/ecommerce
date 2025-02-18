@@ -1,0 +1,13 @@
+/* [project]/src/app/components/Carousel/style.module.scss.module.css [app-client] (css) */
+.style-module-scss-module__L3ge5a__carousel {
+  border-radius: var(--border-radius-medium);
+  overflow: hidden;
+}
+
+.style-module-scss-module__L3ge5a__carousel__img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=src_app_components_Carousel_style_module_scss_module_b52d8e.css.map*/

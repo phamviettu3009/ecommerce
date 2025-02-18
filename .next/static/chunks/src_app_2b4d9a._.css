@@ -1,0 +1,143 @@
+/* [project]/src/app/products/[handle]/styles.module.scss.module.css [app-client] (css) */
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__card-view {
+  background-color: #fff;
+  border-radius: var(--border-radius-medium);
+  padding: .5rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__image_view__main_picture {
+  object-fit: contain;
+  width: 100%;
+  height: 350px;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view__price {
+  font-size: 15px;
+  font-weight: 400;
+  color: red;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant p {
+  margin-bottom: unset;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant__price {
+  font-weight: 600;
+  font-size: 25px;
+  color: red;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant__option-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant .styles-module-scss-module__5n-ZTq__variant-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: .5rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant .styles-module-scss-module__5n-ZTq__variant-wrap-item {
+  border: 1px solid #c3c3c3;
+  padding: 4px;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant .styles-module-scss-module__5n-ZTq__variant-wrap-item__name {
+  font-weight: 600;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__prod-info-view .styles-module-scss-module__5n-ZTq__variant .styles-module-scss-module__5n-ZTq__variant-wrap-item.styles-module-scss-module__5n-ZTq__active {
+  border: 2px solid var(--primary-color);
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view .styles-module-scss-module__5n-ZTq__title {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view .styles-module-scss-module__5n-ZTq__quantity-wrap {
+  display: flex;
+  gap: .5rem;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view .styles-module-scss-module__5n-ZTq__quantity-btn {
+  padding: .3rem;
+  border-radius: var(--border-radius-small);
+  border: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view .styles-module-scss-module__5n-ZTq__quantity-btn:hover {
+  background-color: #c3c3c3;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view .styles-module-scss-module__5n-ZTq__quantity-input {
+  padding: .3rem;
+  border-radius: var(--border-radius-small);
+  border: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  text-align: center;
+  line-height: normal;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view input::-webkit-outer-spin-button, .styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.styles-module-scss-module__5n-ZTq__page .styles-module-scss-module__5n-ZTq__quantity-control-view p {
+  margin-bottom: unset;
+}
+
+
+/* [project]/src/app/components/CarouselProductImage/style.scss.css [app-client] (css) */
+.carousel-prod-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.carousel-prod-img__item {
+  border-radius: var(--border-radius-small);
+  border: 1px solid #c3c3c3;
+  cursor: pointer;
+}
+
+.carousel-prod-img__item.active {
+  border: 2px solid var(--primary-color);
+}
+
+
+/*# sourceMappingURL=src_app_2b4d9a._.css.map*/

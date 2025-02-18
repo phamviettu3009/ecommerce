@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/products/%5Bhandle%5D/styles.module.scss.module.css"],"sourcesContent":[".page{min-height:1200px}.page .image_view{background-color:#fff;border-radius:4px;padding:.5rem}.page .image_view__main_picture{width:100%;height:100%}"],"names":[],"mappings":"AAAA;;;;AAAwB;;;;;;AAAwE"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

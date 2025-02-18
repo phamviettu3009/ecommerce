@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/macad/Documents/Project/nextjs/ecommerce/src/app/auth/sign-up/styles.module.scss.module.css"],"sourcesContent":[".page{display:flex;justify-content:center;align-items:center;flex-direction:column;background-color:var(--background-color);height:80%}.page .form{width:300px;border-radius:var(--border-radius-medium);padding:1rem;background-color:#fff;gap:.5rem}.page .form-message{font-size:12px}"],"names":[],"mappings":"AAAA;;;;;;;;;AAAuI;;;;;;;;AAA+G"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

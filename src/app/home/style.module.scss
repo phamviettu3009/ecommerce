@@ -1,0 +1,11 @@
+.page {
+    .load_more {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+
+        &_button {
+            border-radius: 2rem;
+        }
+    }
+}

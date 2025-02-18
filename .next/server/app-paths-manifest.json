@@ -1,0 +1,12 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/products/route": "app/api/products/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/products/[handle]/page": "app/products/[handle]/page.js",
+  "/products/page": "app/products/page.js",
+  "/api/products/filter/route": "app/api/products/filter/route.js",
+  "/cart/page": "app/cart/page.js",
+  "/customer/page": "app/customer/page.js",
+  "/home/page": "app/home/page.js"
+}

@@ -1,0 +1,19 @@
+/* [project]/src/app/components/CarouselProductImage/style.scss.css [app-client] (css) */
+.carousel-prod-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.carousel-prod-img__item {
+  border-radius: var(--border-radius-small);
+  border: 1px solid #c3c3c3;
+  cursor: pointer;
+}
+
+.carousel-prod-img__item.active {
+  border: 2px solid var(--primary-color);
+}
+
+/*# sourceMappingURL=src_app_components_CarouselProductImage_style_scss_b52d8e.css.map*/
